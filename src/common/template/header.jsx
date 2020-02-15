@@ -7,8 +7,8 @@ export default props => (
         <b>My</b>$
       </span>
       <span className="logo-lg">
-        <i className="fa fa-money"></i>
-        <b>My</b> Money
+        <i className={`fa fa-${props.icon}`}></i>
+        <b>My</b> {props.title}
       </span>
     </a>
     <nav className="navbar navbar-static-top">
